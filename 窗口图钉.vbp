@@ -1,0 +1,48 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{1B45A1FF-B7A8-4D8D-9221-427693E491B2}#1.0#0#D:\Tools\vb6mousewheel\VB6IDEMouseWheelAddin.dll#Sample AddIn Project
+Module=modWindow; modWindow.bas
+Class=clsWindow; clsWindow.cls
+Form=frmHandle.frm
+Form=frmStartup.frm
+Module=modRunStartup; modRunStartup.bas
+Module=modTuopan; modTuopan.bas
+IconForm="frmStartup"
+Startup="frmStartup"
+HelpFile=""
+Title="窗口图钉"
+ExeName32="SetWindowTop.exe"
+Command32=""
+Name="窗口图钉"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=8
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionCompanyName="苏州微标信息科技有限公司"
+VersionFileDescription="设置窗口置顶的小工具"
+VersionProductName="窗口图钉"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[CodeSMART]
+Task_UID=18_01_20_23_22_53
