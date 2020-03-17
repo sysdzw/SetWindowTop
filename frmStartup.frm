@@ -137,7 +137,7 @@ Private Sub addControlBox()
         If v(i) <> Me.Hwnd Then
             If Not isHasAddControlBox(v(i)) Then
                 w.Hwnd = v(i)
-                If w.Caption <> "SetWindowTop" Then
+                If InStr("|SetWindowTop|Program Manager|", "|" & w.Caption & "|") = 0 Then
                     lngHandleHwnd = w.Hwnd
                     Call createControlWindow
                 End If
